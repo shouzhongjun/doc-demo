@@ -24,6 +24,7 @@ export default defineConfig({
   // base,
   lang: 'zh-cn',
   title: '测试知识',
+  titleTemplate:"记录工作中学习到的测试相关知识",
   description: '记录工作中学习到的测试相关知识',
   lastUpdated: true,
   // 详见：https://vitepress.dev/zh/reference/site-config#head
