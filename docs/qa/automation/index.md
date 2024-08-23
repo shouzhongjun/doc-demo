@@ -5,6 +5,7 @@ tags:
  - 自动化
 categories:
  - Web UI自动化
+# outline: [2,3]
 ---
 
 # 自动化测试
@@ -19,6 +20,9 @@ Playwright 是一个由 Microsoft 开发的开源自动化测试框架，它支�
     功能全面：支持网络拦截、模拟地理位置、模拟时间等高级功能。
     快速可靠：使用并行测试和其他优化技术来提高测试速度和可靠性。
     简单易用：提供了丰富的 API 和良好的文档，易于上手。
+
+#### [项目实例](./web_ui/playwright_automation.md)
+#### [Playwright 和 Selenium 的区别](./web_ui/Playwright_vs_Selenium.md)
 
 
 ### 二、手机端端使用sonic框架进行自动化测试
