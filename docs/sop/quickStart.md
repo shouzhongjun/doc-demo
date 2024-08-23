@@ -1,5 +1,5 @@
 ---
-sticky: 999
+# sticky: 999
 description: 1分钟内完成自己的博客创建
 descriptionHTML: '
 <span style="color:var(--description-font-color);">1分钟内完成自己的博客创建</span>
@@ -12,8 +12,9 @@ descriptionHTML: '
 </pre>'
 tag:
  - SOP
-top: 1
-sidebar: false
+# top: 1
+sidebar: true
+hidden: true
 ---
 
 # 快速上手
