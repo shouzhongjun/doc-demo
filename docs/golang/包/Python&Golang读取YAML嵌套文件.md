@@ -1,7 +1,6 @@
 `main.yaml` 文件：
 
 ```yaml
-yamlCopy code
 resources:
   - $ref: other.yaml
 ```
@@ -9,7 +8,6 @@ resources:
 `other.yaml` 文件：
 
 ```yaml
-yamlCopy code
 name: John
 age: 30
 ```
@@ -19,7 +17,6 @@ age: 30
 ## Python读取YAML嵌套文件示例代码
 
 ```python
-pythonCopy code
 import yaml
 
 # 定义Person结构体
@@ -51,7 +48,6 @@ for resource in data["resources"]:
 ## Go语言读取YAML嵌套文件示例代码
 
 ```go
-goCopy code
 package main
 
 import (
