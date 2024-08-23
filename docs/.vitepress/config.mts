@@ -24,7 +24,7 @@ export default defineConfig({
   // base,
   lang: 'zh-cn',
   title: '测试知识',
-  description: '粥里有勺糖的博客主题，基于 vitepress 实现',
+  description: '记录工作中学习到的测试相关知识',
   lastUpdated: true,
   // 详见：https://vitepress.dev/zh/reference/site-config#head
   head: [

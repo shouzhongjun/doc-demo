@@ -53,6 +53,23 @@ export const nav: DefaultTheme.NavItem[] = [
     ]
   },
   {
+    text: 'Linux',
+    items: [
+      {
+        text: 'Mysql',
+        link: '/databases/mysql/' // 表示docs/column/Travel/index.md
+      },
+      {
+        text: 'oracle',
+        link: '/databases/oracle/' // 表示docs/column/Growing/index.md
+      },
+      {
+        text:"sqlserve",
+        link:"/databases/sqlserver/"
+      }
+    ]
+  },
+  {
     text: '关于我',
     items: [
       { text: 'Github', link: 'https://github.com/ZeroBugHero' },
