@@ -12,7 +12,7 @@ title: 自动化测试
 
 ### 一、Web端使用Playwright框架进行自动化测试
 #### Playwright简介
-Playwright 是一个由 Microsoft 开发的开源自动化测试框架，它支持多种浏览器，包括 Chrome, Firefox, 和 Safari。它允许开发者用 JavaScript, TypeScript, Python 等语言编写端到端的测试脚本。😊
+Playwright 是一个由 Microsoft 开发的开源自动化测试框架，它支持多种浏览器，包括 Chrome, Firefox, 和 Safari。它允许开发者用 JavaScript, TypeScript, Python 等语言编写端到端的测试脚本。
 
 #### Playwright 的核心特点包括：
 

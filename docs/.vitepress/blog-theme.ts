@@ -25,7 +25,7 @@ const blogTheme = getThemeConfig({
   // search: false,
 
   // markdown 图表支持（会增加一定的构建耗时）
-  // mermaid: true
+  mermaid: true,
 
   // 页脚
   footer: {
@@ -45,8 +45,6 @@ const blogTheme = getThemeConfig({
 
   // 主题色修改
   themeColor: 'el-blue',
-  // 图表
-  mermaid: true,
 
   //渲染 markdown 任务列表
   taskCheckbox: true,

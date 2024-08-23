@@ -35,10 +35,10 @@ export default defineConfig({
   ],
   themeConfig: {
     // 展示 2,3 级标题在目录中
-    outline: {
-      level: [2, 3],
-      label: '目录'
-    },
+    // outline: {
+    //   level: [2, 3],
+    //   label: '目录'
+    // },
     // 默认文案修改
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '相关文章',
@@ -55,7 +55,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/ATQQ/sugar-blog/tree/master/packages/theme'
+        link: 'https://github.com/ZeroBugHero'
       }
     ]
   }

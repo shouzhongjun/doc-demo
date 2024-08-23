@@ -19,3 +19,17 @@
   // 修改颜色
   background-image: linear-gradient(rgb(136, 226, 62), rgb(136, 226, 62));
 }
+.VPDoc.has-aside .content-container {
+  max-width: 100% !important;
+
+}
+
+
+.VPDoc .aside {
+  width:0px !important;
+}
+.VPDoc .aside-container{
+
+  width: 0px  !important;
+  height: 0px !important;
+}
