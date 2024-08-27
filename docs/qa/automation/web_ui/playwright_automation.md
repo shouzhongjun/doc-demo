@@ -8,6 +8,7 @@ tags:
  - Playwright
 categories:
  - 自动化
+description: 当基于Playwright搭建自动化测试框架时，可以按照以下最佳实践来组织项目结构
 ---
 
 # 基于playwright自动化测试项目结构
