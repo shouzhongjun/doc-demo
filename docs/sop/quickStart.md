@@ -13,7 +13,7 @@ descriptionHTML: '
 tag:
  - SOP
 # top: 1
-sidebar: true
+sidebar: false
 hidden: true
 ---
 

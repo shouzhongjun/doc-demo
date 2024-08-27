@@ -39,6 +39,10 @@ export const nav: DefaultTheme.NavItem[] = [
     text: '数据库',
     items: [
       {
+        text:"基础",
+        link:"/databases"
+      },
+      {
         text: 'Mysql',
         link: '/databases/mysql/' // 表示docs/column/Travel/index.md
       },

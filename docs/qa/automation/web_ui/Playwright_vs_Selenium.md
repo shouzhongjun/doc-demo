@@ -5,6 +5,9 @@ tags:
  - Playwright
 categories:
  - 自动化
+description: 表格方式对比Playwright 和 Selenium 的区别
+top: 2
+sticky: 998
 ---
 
 

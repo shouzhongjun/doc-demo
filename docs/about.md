@@ -1,5 +1,4 @@
 ---
-sticky: 1
 tag:
  - 日志
 tags:
