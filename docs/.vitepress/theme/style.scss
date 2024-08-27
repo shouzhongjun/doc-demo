@@ -1,16 +1,16 @@
 .VPHome {
   // 定义遮罩样式
   background: radial-gradient(ellipse,
-      rgba(var(--bg-gradient-home), 1) 0%,
-      rgba(var(--bg-gradient-home), 0) 150%);
-      
+          rgba(var(--bg-gradient-home), 1) 0%,
+          rgba(var(--bg-gradient-home), 0) 150%);
+
 
   // 自定义首页背景图
   &::before {
     // 图片来源：https://zhuanlan.zhihu.com/p/54060187
     background-image: url(./assets/bg.webp);
     background-size: cover;
-    
+
   }
 
 }
@@ -19,6 +19,7 @@
   // 修改颜色
   background-image: linear-gradient(rgb(136, 226, 62), rgb(136, 226, 62));
 }
+
 .VPDoc.has-aside .content-container {
   max-width: 100% !important;
 
@@ -26,10 +27,11 @@
 
 
 .VPDoc .aside {
-  width:0px !important;
+  width: 0px !important;
 }
-.VPDoc .aside-container{
 
-  width: 0px  !important;
+.VPDoc .aside-container {
+
+  width: 0px !important;
   height: 0px !important;
 }
