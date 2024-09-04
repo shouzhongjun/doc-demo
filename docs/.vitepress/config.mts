@@ -1,11 +1,9 @@
-import {SearchPlugin} from 'vitepress-plugin-search'
 import {defineConfig} from '@sugarat/theme/node'
-import {nav} from './relaConf/navbar'
+import {nav} from './relaConf'
 
 
 // 导入主题的配置
 import {blogTheme} from './blog-theme'
-import {fr} from 'element-plus/es/locales.mjs'
 
 // 如果使用 GitHub/Gitee Pages 等公共平台部署
 // 通常需要修改 base 路径，通常为“/仓库名/”
