@@ -53,6 +53,10 @@ export const nav: DefaultTheme.NavItem[] = [
             {
                 text: "sqlserve",
                 link: "/databases/sqlserver/"
+            },
+            {
+                text: "postgresql",
+                link: "/databases/postgresql/"
             }
         ]
     },
