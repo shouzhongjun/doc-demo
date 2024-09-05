@@ -9,11 +9,11 @@ export const nav: DefaultTheme.NavItem[] = [
         items: [
             {
                 text: '基础',
-                link: '/column/Travel/' // 表示docs/column/Travel/index.md
+                link: '/golang/basic/' // 表示docs/column/Travel/index.md
             },
             {
-                text: '包',
-                link: '/golang/包/' // 表示docs/column/Growing/index.md
+                text: '工具包',
+                link: '/golang/library/' // 表示docs/column/Growing/index.md
             }
         ]
     },
