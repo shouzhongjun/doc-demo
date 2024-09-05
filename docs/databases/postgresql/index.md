@@ -11,7 +11,7 @@ description: postgresql数据库
 hidden: true
 ---
 
-# 这里是Postgresql数据库
+# Postgresql数据库
 ## 1. Postgresql简介
 PostgreSQL是一种开放源码的，功能强大的对象关系数据库管理系统，PostgreSQL是PostgreSQL基金会（PostgreSQL Foundation）的注册商标。
 ## 2. Postgresql安装
