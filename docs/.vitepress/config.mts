@@ -30,6 +30,10 @@ export default defineConfig({
         // ['link', { rel: 'icon', href: `${base}favicon.ico` }], // 修改了 base 这里也需要同步修改
         ['link', {rel: 'icon', href: '/logo.svg'}]
     ],
+
+    markdown: {
+        lineNumbers: true
+    },
     themeConfig: {
         // 展示 2,3 级标题在目录中
         // outline: {
@@ -39,7 +43,10 @@ export default defineConfig({
         // 默认文案修改
         returnToTopLabel: '回到顶部',
         sidebarMenuLabel: '相关文章',
-        lastUpdatedText: '上次更新于',
+        // lastUpdatedText: '上次更新于',
+        lastUpdated:{
+            text:'上次更新于',
+        },
 
         // 设置logo
         logo: '/logo.svg',
