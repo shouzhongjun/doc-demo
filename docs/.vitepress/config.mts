@@ -1,5 +1,6 @@
 import {defineConfig} from '@sugarat/theme/node'
 import {nav} from './relaConf'
+import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
 
 
 // 导入主题的配置
@@ -32,7 +33,10 @@ export default defineConfig({
     ],
 
     markdown: {
-        lineNumbers: true
+        lineNumbers: true,
+        config(md) {
+            md.use(groupIconMdPlugin)
+        },
     },
     themeConfig: {
         // 展示 2,3 级标题在目录中
@@ -62,5 +66,10 @@ export default defineConfig({
                 link: 'https://github.com/ZeroBugHero'
             }
         ]
+    },
+    vite:{
+        plugins: [
+            groupIconVitePlugin()
+        ],
     }
 })

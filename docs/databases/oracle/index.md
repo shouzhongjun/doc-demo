@@ -7,7 +7,8 @@ tags:
 categories:
   - oracle
 sidebar: true
-description: like关键字
+description: 记录Oracle数据库的一些知识点
+hidden: true
 ---
 
 # 记录Oracle数据库的一些知识点
