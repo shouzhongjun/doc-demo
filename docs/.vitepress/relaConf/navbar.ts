@@ -64,15 +64,15 @@ export const nav: DefaultTheme.NavItem[] = [
         text: 'Linux',
         items: [
             {
-                text: 'Mysql',
-                link: '/databases/mysql/' // 表示docs/column/Travel/index.md
+                text: '基础',
+                link: '/linux/basic/' // 表示docs/column/Travel/index.md
             },
             {
-                text: 'oracle',
+                text: '中级',
                 link: '/databases/oracle/' // 表示docs/column/Growing/index.md
             },
             {
-                text: "sqlserve",
+                text: "高级",
                 link: "/databases/sqlserver/"
             }
         ]
