@@ -81,10 +81,7 @@ export const nav: DefaultTheme.NavItem[] = [
         text: '关于我',
         items: [
             {text: 'Github', link: 'https://github.com/ZeroBugHero'},
-            {
-                text: '飞书社区',
-                link: ''
-            }
+            
         ]
     }
 ];

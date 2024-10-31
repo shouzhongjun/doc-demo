@@ -3,3 +3,7 @@ dist
 cache
 .temp
 .DS_Store
+.idea/vcs.xml
+.idea/doc-demo.iml
+.idea/modules.xml
+.idea/.gitignore
