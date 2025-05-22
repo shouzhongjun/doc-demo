@@ -61,11 +61,11 @@ const blogTheme = getThemeConfig({
             url: 'https://sugarat.top',
         },
         {
-            nickname: 'Vitepress',
-            des: 'Vite & Vue Powered Static Site Generator',
+            nickname: 'Go Struct',
+            des: 'Go Struct|在线数据结构转换工具',
             avatar:
-                'https://vitepress.dev/vitepress-logo-large.webp',
-            url: 'https://vitepress.dev/',
+                'https://data-format2struct.vercel.app/gopher.png',
+            url: 'https://data-format2struct.vercel.app/',
         },
     ],
 
